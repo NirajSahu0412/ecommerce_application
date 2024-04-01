@@ -1,15 +1,12 @@
 import 'package:flutter/material.dart';
 
-class CustomElevatedButtonTheme {
-  CustomElevatedButtonTheme._();
+class CustomOutlineButtonTheme {
+  CustomOutlineButtonTheme._();
 
-  static final lightElevatedButtonTheme = ElevatedButtonThemeData(
-    style: ElevatedButton.styleFrom(
+  static final lightOutlineButtonTheme = OutlinedButtonThemeData(
+    style: OutlinedButton.styleFrom(
       elevation: 0,
-      foregroundColor: Colors.white,
-      backgroundColor: Colors.teal,
-      disabledBackgroundColor: Colors.grey,
-      disabledForegroundColor: Colors.grey,
+      foregroundColor: Colors.black,
       side: const BorderSide(
         color: Colors.teal,
       ),
@@ -18,7 +15,7 @@ class CustomElevatedButtonTheme {
       ),
       textStyle: const TextStyle(
         fontSize: 18,
-        color: Colors.white,
+        color: Colors.black,
         fontWeight: FontWeight.w600,
       ),
       shape: RoundedRectangleBorder(
@@ -29,13 +26,10 @@ class CustomElevatedButtonTheme {
     ),
   );
 
-  static final darkElevatedButtonTheme = ElevatedButtonThemeData(
-    style: ElevatedButton.styleFrom(
+  static final darkOutlineButtonTheme = OutlinedButtonThemeData(
+    style: OutlinedButton.styleFrom(
       elevation: 0,
       foregroundColor: Colors.white,
-      backgroundColor: Colors.teal,
-      disabledBackgroundColor: Colors.grey,
-      disabledForegroundColor: Colors.grey,
       side: const BorderSide(
         color: Colors.teal,
       ),
