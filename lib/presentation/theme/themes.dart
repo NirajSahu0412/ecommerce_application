@@ -1,12 +1,12 @@
-import 'package:ecommerce_application/presentation/constants/theme/appbar_themes.dart';
-import 'package:ecommerce_application/presentation/constants/theme/bottom_sheet_themes.dart';
-import 'package:ecommerce_application/presentation/constants/theme/checkbox_themes.dart';
-import 'package:ecommerce_application/presentation/constants/theme/chip_themes.dart';
-import 'package:ecommerce_application/presentation/constants/theme/elevated_button_themes.dart';
-import 'package:ecommerce_application/presentation/constants/theme/outline_button_themes.dart';
-import 'package:ecommerce_application/presentation/constants/theme/text_formfield_themes.dart';
-import 'package:ecommerce_application/presentation/constants/theme/text_themes.dart';
 import 'package:flutter/material.dart';
+import 'package:ecommerce_application/presentation/theme/text_formfield_themes.dart';
+import 'package:ecommerce_application/presentation/theme/text_themes.dart';
+import 'appbar_themes.dart';
+import 'bottom_sheet_themes.dart';
+import 'checkbox_themes.dart';
+import 'chip_themes.dart';
+import 'elevated_button_themes.dart';
+import 'outline_button_themes.dart';
 
 class CustomAppTheme {
   CustomAppTheme._();
