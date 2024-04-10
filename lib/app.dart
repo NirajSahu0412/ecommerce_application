@@ -1,4 +1,4 @@
-import 'package:ecommerce_application/presentation/theme/themes.dart';
+import 'package:ecommerce_application/utils/theme/themes.dart';
 import 'package:flutter/material.dart';
 
 class App extends StatelessWidget {

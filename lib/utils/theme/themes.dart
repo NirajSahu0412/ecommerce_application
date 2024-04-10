@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:ecommerce_application/presentation/theme/text_formfield_themes.dart';
-import 'package:ecommerce_application/presentation/theme/text_themes.dart';
+import 'package:ecommerce_application/utils/theme/text_formfield_themes.dart';
+import 'package:ecommerce_application/utils/theme/text_themes.dart';
 import 'appbar_themes.dart';
 import 'bottom_sheet_themes.dart';
 import 'checkbox_themes.dart';
