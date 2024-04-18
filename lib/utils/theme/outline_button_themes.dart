@@ -8,7 +8,7 @@ class CustomOutlineButtonTheme {
       elevation: 0,
       foregroundColor: Colors.black,
       side: const BorderSide(
-        color: Colors.teal,
+        color: Color(0xFF14213d),
       ),
       padding: const EdgeInsets.symmetric(
         vertical: 18,

@@ -15,7 +15,7 @@ class CustomAppTheme {
     useMaterial3: true,
     fontFamily: 'NunitoSans',
     brightness: Brightness.light,
-    primaryColor: Colors.teal,
+    primaryColor: const Color(0xFF14213d),
     textTheme: CustomTextTheme.lightTextTheme,
     chipTheme: CustomChipTheme.lightChipTheme,
     appBarTheme: CustomAppBar.lightAppBarTheme,

@@ -21,7 +21,7 @@ class CustomCheckboxTheme {
     fillColor: MaterialStateColor.resolveWith(
       (states) {
         if (states.contains(MaterialState.selected)) {
-          return Colors.teal;
+          return const Color(0xFF14213d);
         } else {
           return Colors.transparent;
         }

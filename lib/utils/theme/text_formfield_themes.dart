@@ -19,9 +19,7 @@ class CustomTextFormFieldTheme {
       fontStyle: FontStyle.normal,
     ),
     floatingLabelStyle: const TextStyle().copyWith(
-      color: Colors.black.withOpacity(
-        8.0,
-      ),
+      color: Colors.black45,
     ),
     border: const OutlineInputBorder().copyWith(
       borderRadius: BorderRadius.circular(
@@ -86,9 +84,7 @@ class CustomTextFormFieldTheme {
       fontStyle: FontStyle.normal,
     ),
     floatingLabelStyle: const TextStyle().copyWith(
-      color: Colors.white.withOpacity(
-        8.0,
-      ),
+      color: Colors.white38,
     ),
     border: const OutlineInputBorder().copyWith(
       borderRadius: BorderRadius.circular(
